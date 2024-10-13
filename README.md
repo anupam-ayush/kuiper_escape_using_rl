@@ -68,7 +68,8 @@ The Frozen Lake environment can be effectively solved using reinforcement learni
 These methods allow the agent to learn from its experiences and develop strategies to navigate the environment successfully.
 
 ### Results
-![Results](https://imgur.com/l0GkYa7)
+![Results](https://github.com/user-attachments/assets/cac11c29-5693-49ec-b1b8-74ed55d29972)
+
 
 
 ---
@@ -130,20 +131,24 @@ The MiniGrid Empty environment can be effectively tackled using several reinforc
 
 ### Results
 #### Monte Carlo (everyvisit) Results
-![](https://imgur.com/KF25GB1)
-![](https://imgur.com/lwYH3bG)
+![](https://github.com/user-attachments/assets/40f6e68f-6601-4632-a996-e258f6b49b71)
+![](https://github.com/user-attachments/assets/9aa40aca-cedd-4ba4-a56a-f4b0486a40d6)
+
 
 #### Q Learning Results
-![](https://imgur.com/D7vkS1c)
-![](https://imgur.com/NMtcW1L)
+![](https://github.com/user-attachments/assets/f96a5946-bcf9-4491-96e1-4218f84e692e)
+![](https://github.com/user-attachments/assets/ddf61d63-d2b4-4171-9c97-50b74e93246c)
+
 
 #### SARSA Results
-![](https://imgur.com/SMRWT48)
-![](https://imgur.com/VP3k7FE)
+![](https://github.com/user-attachments/assets/3d3d0f36-8dc6-435d-b7d8-968ae5878378)
+![](https://github.com/user-attachments/assets/e44a9ab5-3ea0-4c3f-853c-16169f09edec)
+
 
 #### SARSA(λ) Results
-![](https://imgur.com/RVt4kCx)
-![](https://imgur.com/e8tYR39)
+![](https://github.com/user-attachments/assets/7a412413-37a5-4234-b6c6-ab268507b353)
+![](https://github.com/user-attachments/assets/0aed2102-0def-4136-a5aa-2f467fad6dd2)
+
 
 
 ---
