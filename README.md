@@ -1,7 +1,7 @@
 # Kuiper Belt Escape Using Reinforcement Learning
 
 ## Aim
-The **Kuiper Belt Escape** project aims to explore and navigate its environments. We start learning and exploring with two distinct environments—**Frozen Lake** and **MiniGrid Empty**—using various reinforcement learning algorithms and then implenting the best suited algorithm to **Kuiper Belt Escape** environment. This project serves as a platform for testing the effectiveness of different RL techniques in handling challenges such as sparse rewards, exploration, and strategic decision-making.
+The **Kuiper Belt Escape** project aims to explore and navigate its environments using different reinforcement learning algorithms. We start learning and exploring with two distinct environments—**Frozen Lake** and **MiniGrid Empty**—using various reinforcement learning algorithms and then implenting the best suited algorithm to **Kuiper Belt Escape** environment. This project serves as a platform for testing the effectiveness of different RL techniques in handling challenges such as sparse rewards, exploration, and strategic decision-making.
 
 ## Requirements
 To run the environments successfully, ensure you have the following libraries installed:
