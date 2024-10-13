@@ -22,7 +22,7 @@ The **Frozen Lake** environment simulates a grid world scenario in which an agen
 
 The layout consists of a **4x4 grid**, where certain tiles are designated as holes. Players must avoid these hazards while making their way to the goal, which is located at the far end of the grid.
 
-![Frozen Lake](../../../_images/frozen_lake.gif)
+![Frozen Lake](https://gymnasium.farama.org/_images/frozen_lake.gif)
 
 ### State Space
 The state space is composed of **16 discrete states** that represent the possible positions of the agent on the 4x4 grid. Each state corresponds to a specific location, allowing the agent to understand its current position relative to both the goal and the holes:
@@ -35,10 +35,10 @@ The finite nature of the state space simplifies the learning process while provi
 ### Action Space
 The action space consists of **4 discrete actions** that the agent can take:
 
-	LEFT   - 0
-	DOWN - 1
-	RIGHT  - 2
-	UP  - 3
+	LEFT  - 0
+	DOWN  - 1
+	RIGHT - 2
+	UP    - 3
 
 
 Players must strategically choose their actions to navigate towards the goal while avoiding falling into any holes, creating a need for careful planning and decision-making.
@@ -68,14 +68,8 @@ The Frozen Lake environment can be effectively solved using reinforcement learni
 These methods allow the agent to learn from its experiences and develop strategies to navigate the environment successfully.
 
 ### Results
-#### Training Results
-![Training Results](path/to/training_graph.png)
+![Results](https://imgur.com/l0GkYa7)
 
-#### Testing Results
-![Testing Results](path/to/testing_graph.png)
-
-#### Gameplay Demonstration
-![Gameplay GIF](../../../_images/frozen_lake_play.gif)
 
 ---
 
@@ -86,7 +80,7 @@ The **MiniGrid Empty** environment features an empty room where the agent's prim
 
 Agents can either start in a fixed corner or at a random position, depending on the configuration chosen. This variability introduces new challenges for the learning process and enhances the robustness of the algorithms being tested.
 
-![MiniGrid Empty](path/to/minigrid_empty_image.png)
+![MiniGrid Empty](https://minigrid.farama.org/_images/EmptyEnv.gif)
 
 ### State Space
 The observation space is structured as a dictionary that provides critical information about the agent's current state:
@@ -135,13 +129,21 @@ The MiniGrid Empty environment can be effectively tackled using several reinforc
 - **SARSA(λ)**: An extension of SARSA that incorporates eligibility traces, allowing the agent to learn from multiple past experiences for quicker convergence.
 
 ### Results
-#### Training Results
-![Training Results](path/to/training_graph.png)
+#### Monte Carlo (everyvisit) Results
+![](https://imgur.com/KF25GB1)
+![](https://imgur.com/lwYH3bG)
 
-#### Testing Results
-![Testing Results](path/to/testing_graph.png)
+#### Q Learning Results
+![](https://imgur.com/D7vkS1c)
+![](https://imgur.com/NMtcW1L)
 
-#### Gameplay Demonstration
-![Gameplay GIF](path/to/minigrid_play.gif)
+#### SARSA Results
+![](https://imgur.com/SMRWT48)
+![](https://imgur.com/VP3k7FE)
+
+#### SARSA(λ) Results
+![](https://imgur.com/RVt4kCx)
+![](https://imgur.com/e8tYR39)
+
 
 ---
