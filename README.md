@@ -35,12 +35,11 @@ The finite nature of the state space simplifies the learning process while provi
 ### Action Space
 The action space consists of **4 discrete actions** that the agent can take:
 
-| Action | Direction |
-|--------|-----------|
-| 0      | Left      |
-| 1      | Down      |
-| 2      | Right     |
-| 3      | Up        |
+	LEFT   - 0
+	DOWN - 1
+	RIGHT  - 2
+	UP  - 3
+
 
 Players must strategically choose their actions to navigate towards the goal while avoiding falling into any holes, creating a need for careful planning and decision-making.
 
@@ -106,10 +105,7 @@ The action space comprises **7 discrete actions** that the agent can perform:
 | 0   | Left     | Turn left          |
 | 1   | Right    | Turn right         |
 | 2   | Forward  | Move forward       |
-| 3   | Pickup   | Unused             |
-| 4   | Drop     | Unused             |
-| 5   | Toggle   | Unused             |
-| 6   | Done     | Unused             |
+
 
 The agent must thoughtfully choose its actions to navigate toward the goal while managing the sparse rewards effectively.
 
