@@ -68,8 +68,7 @@ The Frozen Lake environment can be effectively solved using reinforcement learni
 These methods allow the agent to learn from its experiences and develop strategies to navigate the environment successfully.
 
 ### Results
-![Results](https://github.com/user-attachments/assets/cac11c29-5693-49ec-b1b8-74ed55d29972 | width=200)
-
+![Results](https://github.com/user-attachments/assets/cac11c29-5693-49ec-b1b8-74ed55d29972)
 
 
 ---
